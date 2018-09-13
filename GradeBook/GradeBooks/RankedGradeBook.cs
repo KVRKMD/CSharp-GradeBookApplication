@@ -1,6 +1,8 @@
-﻿using System;
+﻿using GradeBook.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
+
 
 namespace GradeBook.GradeBooks
 {
@@ -8,7 +10,7 @@ namespace GradeBook.GradeBooks
     {
         public RankedGradeBook(String name) : base(name)
         {
-            Type = Enums.GradeBookType.Ranked; 
+            Type = GradeBookType.Ranked; 
         }
     }
 }
