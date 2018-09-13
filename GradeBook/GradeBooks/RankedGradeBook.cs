@@ -8,7 +8,8 @@ namespace GradeBook.GradeBooks
     {
         public RankedGradeBook(String name) : base(name)
         {
-            Type = Enums.GradeBookType.Ranked;
+            Type = Enums.GradeBookType.Ranked; 
+            //GG not used
         }
     }
 }
