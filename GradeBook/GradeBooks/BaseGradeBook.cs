@@ -19,6 +19,11 @@ namespace GradeBook.GradeBooks
             {
                 return Type;
             }
+            set
+            {
+                Type = value;
+            }
+
         }
 
         public BaseGradeBook(string name)
